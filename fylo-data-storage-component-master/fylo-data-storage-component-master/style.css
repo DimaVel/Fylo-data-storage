@@ -1,0 +1,119 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://fonts.google.com/specimen/Raleway);
+}
+
+body {
+  background-color: #0c122c;
+  margin: 0px;
+}
+
+.empty {
+  padding: 7.8rem;
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.left {
+  font-size: 1.5625rem;
+  position: absolute;
+  bottom: 19.375rem;
+  left: 14.375rem;
+  background-color: #1d2c67;
+  color: white;
+  padding: 0.3125rem 3.75rem;
+  border: 0.125rem solid #1d2c67;
+  border-radius: 0.4375rem;
+  border-top-right-radius: 5rem;
+}
+
+.right {
+  font-size: 1.25rem;
+  position: absolute;
+  bottom: 19.375rem;
+  right: 14.375rem;
+  background-color: #1d2c67;
+  color: white;
+  padding: 10px 60px;
+  padding-bottom: 30px;
+  border: 2px solid #1d2c67;
+  border-radius: 0.625rem;
+  width: 25rem;
+}
+
+.left ul {
+  position: relative;
+  right: 50px;
+}
+
+.left li {
+  display: inline;
+  padding: 8px;
+  overflow: hidden;
+  margin: 5px;
+  background-color: #0c122c;
+  border-radius: 10px;
+}
+
+.bar {
+  width: 100%; /* Full width */
+  background-color: #071444; /* Grey background */
+  border-radius: 1.25rem;
+  margin-bottom: 7px;
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 0.3125rem; /* Add top padding */
+  padding-bottom: 0.3125rem; /* Add bottom padding */
+  color: white; /* White text color */
+  background-image: linear-gradient(-90deg, #ff4d97, #ffd1cc);
+  width: 75%;
+  height: 5px;
+  border-radius: 1.25rem;
+}
+
+#barP {
+  font-size: 0.875rem;
+  font-family: myFirstFont;
+}
+
+.speech-bubble {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 0.4em;
+  color: black;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  bottom: 90px;
+  right: 30px;
+  padding: 5px;
+  text-align: center;
+  font-family: myFirstFont;
+  font-weight: 800;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 90%;
+  width: 0;
+  height: 0;
+  border: 1.063em solid transparent;
+  border-top-color: #ffffff;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: -0.531em;
+  margin-bottom: -0.7em;
+  font-family: myFirstFont;
+}
+.ss {
+  font-size: 13px;
+}
+.sss {
+  padding-left: 320px;
+}
